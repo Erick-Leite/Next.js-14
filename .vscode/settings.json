@@ -4,5 +4,6 @@
   "[nix]": {
     "editor.defaultFormatter": "google.nix-language",
     "editor.formatOnSave": true
-  }
+  },
+  "css.customData": [".vscode/tailwindcss.json"]
 }

@@ -1,0 +1,55 @@
+{
+  "version": 1.1,
+  "atDirectives": [
+    {
+      "name": "@tailwind",
+      "description": "Use a diretiva `@tailwind` para inserir os estilos de base (`base`), componentes (`components`), utilitários (`utilities`) e telas (`screens`) do Tailwind no seu CSS.",
+      "references": [
+        {
+          "name": "Documentação do Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/functions-and-directives#tailwind"
+        }
+      ]
+    },
+    {
+      "name": "@apply",
+      "description": "Use a diretiva `@apply` para aplicar classes de utilidade existentes diretamente no seu CSS personalizado. Isso é útil quando você encontra um padrão comum de classes de utilidade no seu HTML que deseja extrair para um novo componente.",
+      "references": [
+        {
+          "name": "Documentação do Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/functions-and-directives#apply"
+        }
+      ]
+    },
+    {
+      "name": "@responsive",
+      "description": "Você pode gerar variantes responsivas de suas próprias classes encapsulando suas definições na diretiva `@responsive`:\n`css\n@responsive {\n  .alerta {\n    background-color: #E53E3E;\n  }\n}\n`\n",
+      "references": [
+        {
+          "name": "Documentação do Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/functions-and-directives#responsive"
+        }
+      ]
+    },
+    {
+      "name": "@screen",
+      "description": "A diretiva `@screen` permite criar media queries que referenciam seus pontos de interrupção pelo **nome** em vez de duplicar seus valores no seu próprio CSS:\n`css\n@screen sm {\n  /* ... */\n}\n`\n… se transforma em:\n`css\n@media (min-width: 640px) {\n  /* ... */\n}\n`\n",
+      "references": [
+        {
+          "name": "Documentação do Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/functions-and-directives#screen"
+        }
+      ]
+    },
+    {
+      "name": "@variants",
+      "description": "Gere variantes `hover`, `focus`, `active` e outras de seus próprios utilitários encapsulando suas definições na diretiva `@variants`:\n`css\n@variants hover, focus {\n   .btn-principal {\n    background-color: #3182CE;\n  }\n}\n`\n",
+      "references": [
+        {
+          "name": "Documentação do Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/functions-and-directives#variants"
+        }
+      ]
+    }
+  ]
+}

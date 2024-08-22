@@ -5,5 +5,9 @@
     "editor.defaultFormatter": "google.nix-language",
     "editor.formatOnSave": true
   },
+  "[git-commit]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 72
+  },
   "css.customData": [".vscode/tailwindcss.json"]
 }

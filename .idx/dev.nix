@@ -17,6 +17,7 @@
     extensions = [
       # "vscodevim.vim"
       "dbaeumer.vscode-eslint"
+      "esbenp.prettier-vscode"
     ];
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file

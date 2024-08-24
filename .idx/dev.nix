@@ -18,6 +18,7 @@
       # "vscodevim.vim"
       "dbaeumer.vscode-eslint"
       "esbenp.prettier-vscode"
+      "bradlc.vscode-tailwindcss"
     ];
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file

@@ -2,6 +2,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[nix]": {
-    "editor.defaultFormatter": "google.nix-language"
+    "editor.defaultFormatter": "google.nix-language",
+    "editor.formatOnSave": true
   }
 }
